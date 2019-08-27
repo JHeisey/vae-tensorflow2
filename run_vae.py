@@ -36,4 +36,4 @@ if __name__ == '__main__':
     train_dataset = tf.data.Dataset.from_tensor_slices(train_images).shuffle(TRAIN_BUF).batch(BATCH_SIZE)
     test_dataset = tf.data.Dataset.from_tensor_slices(test_images).shuffle(TEST_BUF).batch(BATCH_SIZE)
 
-    print('done')
+    print('Done.')
